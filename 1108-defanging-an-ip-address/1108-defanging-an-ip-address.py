@@ -1,8 +1,7 @@
 class Solution:
     def defangIPaddr(self, address: str) -> str:
-        '''Since characters cannot be replaced 
-        from a string, converting string to 
-        list with delimiter "."
+        '''
+        or we could simply use replace function :/
         '''
 
         address = address.split(".")
